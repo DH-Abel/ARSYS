@@ -80,8 +80,8 @@ const cerrarModal = ()=>{
         />
       )}
 
-
-      <Modal
+      
+      <Modal  //Con esto se abre el modal con la informacion, dando clic en el cliente
         visible={modalInformacion}
         animationType='fade'>
         <ClienteInformacion
