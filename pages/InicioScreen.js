@@ -1,6 +1,5 @@
 import React from 'react';
 import { View, Text, TouchableOpacity, StyleSheet, Dimensions } from 'react-native';
-
 const { width } = Dimensions.get('window');
 
 const InicioScreen = ({ navigation }) => {
@@ -8,9 +7,6 @@ const InicioScreen = ({ navigation }) => {
     <View style={styles.container}>
       <TouchableOpacity
         style={[styles.button, { width: width * 0.8 }]}
-        onPress={() => {
-          navigation.navigate('Pedidos');
-        }}
       >
         <Text style={styles.buttonText}>Pedidos</Text>
       </TouchableOpacity>
