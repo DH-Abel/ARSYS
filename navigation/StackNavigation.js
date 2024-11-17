@@ -1,21 +1,14 @@
-import { createStackNavigator } from "@react-navigation/stack"
-import { DrawerNavigation } from "./DrawerNavigation"
-import Clientes from "../pages/Clientes"
-import { Home } from "../pages/Home";
-import { NavigationContainer } from "@react-navigation/native"
+import { createStackNavigator } from "@react-navigation/stack";
+import Clientes from "../pages/Clientes";
+import { InicioScreen } from "../pages/InicioScreen";
 
-
-const Stack = createStackNavigator()
+const Stack = createStackNavigator();
 
 export default function MyStack() {
   return (
-    <NavigationContainer>
-      <Stack.Navigator initialRouteName="Home">
-        
-        <Stack.Screen name="Home" component={Home}
-        />
-       
-      </Stack.Navigator>
-    </NavigationContainer>
-  )
+    <Stack.Navigator initialRouteName="InicioScreen">
+      <Stack.Screen name="InicioScreen" component={InicioScreen} />
+      <Stack.Screen name="Clientes" component={Clientes} />
+    </Stack.Navigator>
+  );
 }

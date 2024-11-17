@@ -1,3 +1,4 @@
+//Contenido que va dentro de la lista, informacion de clientes
 import React from "react";
 import { Pressable, Text, View, Alert } from "react-native";
 import Styles from "./Styles";

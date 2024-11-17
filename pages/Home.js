@@ -3,10 +3,10 @@ import { Text, Modal, Pressable, SafeAreaView, FlatList, Alert } from 'react-nat
 import Styles from '../Components/Styles';
 
 
-export default function Inicio() {
+export default function Home() {
     return (
-      <View style={styles.container}>
-          <Text>Inicio</Text>
+      <View>
+          <text>Inicio</text>
       </View>
     );
   }

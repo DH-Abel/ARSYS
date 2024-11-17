@@ -1,3 +1,4 @@
+//Esta pestaña es para crear y editar clientes
 import React, { useState, useEffect } from 'react';
 import { Text, Modal, Pressable, SafeAreaView, ScrollView, TextInput, Alert } from 'react-native'
 import Styles from '../Components/Styles';

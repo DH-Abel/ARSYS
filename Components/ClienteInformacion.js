@@ -1,3 +1,5 @@
+//Esta pestaña es a donde me manda al precionar el cualquiera de los clientes en la lista
+//No tiene ninguna funcion actualmente
 import React from "react";
 import { Text,SafeAreaView, Pressable } from "react-native";
 import Styles from "./Styles";
@@ -5,7 +7,7 @@ import Styles from "./Styles";
 export default ClienteInformacion = ({cliente,setModalInformacion,setCliente})=>{
     return(
         <SafeAreaView>
-            <Text>Informacion del cliente</Text>
+            <Text>Informacion del cliente.</Text>
             <Text>nombre: {cliente.nombre}</Text>
             <Text>Apellido: {cliente.apellido}</Text>
             <Text>{cliente.docType}: {cliente.documento}</Text>
