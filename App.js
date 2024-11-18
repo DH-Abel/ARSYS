@@ -9,13 +9,12 @@ import Test from './pages/test';
 const Stack = createStackNavigator();
 export default function App() {
   return (
-    <View>
+    
       <NavigationContainer>
         <Stack.Navigator initialRouteName="Test">
           <Stack.Screen name="Test" component={Test} />
         </Stack.Navigator>
       </NavigationContainer>
-        
-    </View>
+ 
   );
 }
