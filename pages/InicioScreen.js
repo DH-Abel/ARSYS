@@ -43,11 +43,16 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     marginVertical: 10,
     alignItems: 'center',
+    height: 100,
+    justifyContent: 'center'
+
   },
   buttonText: {
     color: '#fff',
-    fontSize: 18,
+    fontSize: 25,
     fontWeight: 'bold',
+    textAlign: 'center',
+    
   },
 });
 

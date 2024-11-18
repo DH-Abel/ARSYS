@@ -9,6 +9,7 @@ export default function MyStack() {
   return (
     <Stack.Navigator initialRouteName="InicioScreen">
       <Stack.Screen name="InicioScreen" component={InicioScreen} />
+      <Stack.Screen name="Clientes" component={Clientes} />
     
     </Stack.Navigator>
   );
